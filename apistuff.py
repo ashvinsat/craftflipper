@@ -1,23 +1,17 @@
 # pylint: disable-all
 import requests
 import json
-"""
-cofl stuff:
-https://sky.coflnet.com/api/auctions/tag/NAME/active/bin
-startingBid:
+import os
 
-bz prices:
-https://sky.shiiyu.moe/api/v2/bazaar
-
-
-
-"""
 #this doesnt need to be changed
 bz = requests.get("https://sky.shiiyu.moe/api/v2/bazaar").json()
 #
 
 def get_craft_price(tag):
-    data=json.load(open(f"{tag}.json"))
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, "itemsfolder", tag + ".json")
+    data = json.load(open(file_path))
+
     items_in_recipe = {}
     for i in data["recipe"].values():
         if i == "":
