@@ -19,7 +19,6 @@ token=parser.get("Info", "TOKEN")
 bot.run(token)
 
 @bot.command()
-async def ping(ctx):
-    """do stuff"""
-    await ctx.send(f"pong {round(bot.latency * 1000)}ms")
+async def echo(ctx, arg):
+    await ctx.send(arg)
 
