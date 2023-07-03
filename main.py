@@ -1,6 +1,7 @@
 # pylint: disable=consider-using-f-string
-# pylint: disable=pylint(trailing-newlines)
-# pylint: disable=pylint(unused-import)
+# pylint: disable=trailing-newlines
+# pylint: disable=unused-import
+# pylint: disable=missing-module-docstring
 import os
 import tracemalloc
 import configparser as cfg
