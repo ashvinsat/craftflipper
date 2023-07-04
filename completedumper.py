@@ -1,6 +1,10 @@
+# pylint: disable-all
+
 import os
 import api2
 
-with open("craftingerecipes.json", 'a') as file:
-    file.write("[")
+file = open("craftingerecipes.json", 'a')
+file.write("[")
 
+directory = os.fsencode("items")
+for filename in os.listdir(directory):
