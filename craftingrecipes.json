@@ -1,9 +1,5 @@
 [{
-    "FLORID_ZOMBIE_SWORD": {
-        "HEALING_TISSUE": 24,
-        "GOLDEN_POWDER": 1,
-        "ENCHANTED_GOLD": 160,
-        "ENCHANTED_ROTTEN_FLESH": 512,
+    "STICK": {
         "WOOD": 2
     }
 },{
@@ -12,7 +8,31 @@
         "ENCHANTED_LAPIS_LAZULI_BLOCK": 6
     }
 },{
-    "STICK": {
+    "ZOMBIE_SWORD": {
+        "ENCHANTED_ROTTEN_FLESH": 512,
         "WOOD": 2
+    }
+},{
+    "ORNATE_ZOMBIE_SWORD": {
+        "GOLDEN_POWDER": 1,
+        "ENCHANTED_GOLD": 160,
+        "ENCHANTED_ROTTEN_FLESH": 512,
+        "WOOD": 2
+    }
+},{
+    "FLORID_ZOMBIE_SWORD": {
+        "HEALING_TISSUE": 24,
+        "GOLDEN_POWDER": 1,
+        "ENCHANTED_GOLD": 160,
+        "ENCHANTED_ROTTEN_FLESH": 512,
+        "WOOD": 2
+    }
+},{
+    "ZOMBIE_HEART": {
+        "ENCHANTED_ROTTEN_FLESH": 256
+    }
+},{
+    "ENCHANTED_GOLD_BLOCK": {
+        "ENCHANTED_GOLD": 160
     }
 }]
