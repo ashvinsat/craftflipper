@@ -71,6 +71,3 @@ def DumpToFile(tag):
         json.dump(dumpy, f, indent=4)
         f.write(",")
     print("success")
-
-
-DumpToFile("STICK")

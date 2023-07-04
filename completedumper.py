@@ -1,7 +1,7 @@
 # pylint: disable-all
 
 import os
-from api2 import DumpToFile
+from dumprecipes import DumpToFile
 
 file = open("craftingrecipes.json", 'w')
 file.write("[")
